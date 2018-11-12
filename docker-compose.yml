@@ -1,0 +1,19 @@
+version: "2"
+services:
+  app:
+    image: denemee
+    restart: always
+    build: .
+    links:
+      - mongo
+    ports:
+       - "1212:80"  
+  mongo:
+    image: mongo
+    environment:
+      - MONGO_DATA_DIR=/data/db
+      - MONGO_LOG_DIR=/dev/null
+    volumes:
+      - ./data/db:/data/db
+    ports:
+        - 27017:27017

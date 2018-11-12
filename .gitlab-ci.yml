@@ -1,0 +1,52 @@
+image: docker:latest
+
+stages:
+  - build
+  - deploy
+ 
+services:
+- docker:dind  
+
+variables:
+  project: "Messaging"
+  DOCKER_DRIVER: overlay
+
+
+build:
+  image: microsoft/dotnet:latest
+  stage: build
+  variables:
+    build_path: "/"
+  script:
+    - "dotnet restore"
+    - "dotnet build"
+
+    
+deploy:
+  stage: deploy
+  before_script:
+      - apk add --update make ca-certificates openssl python  curl
+      - update-ca-certificates
+      - echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
+      - wget https://dl.google.com/dl/cloudsdk/release/google-cloud-sdk.tar.gz
+      - tar zxvf google-cloud-sdk.tar.gz && ./google-cloud-sdk/install.sh --usage-reporting=false --path-update=true
+      - google-cloud-sdk/bin/gcloud --quiet components update
+      - google-cloud-sdk/bin/gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
+      - curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+      - chmod +x ./kubectl
+      - mv ./kubectl /usr/local/bin/kubectl
+      - kubectl config set-cluster nosebit --server="$KUBE_URL" --insecure-skip-tls-verify=true
+      - kubectl config set-credentials admin --username="$KUBE_USER" --password="$KUBE_PASSWORD"
+      - kubectl config set-context default --cluster=nosebit --user=admin
+      - kubectl config use-context default
+      - kubectl config view
+  script:
+      - docker login -u _json_key --password-stdin https://gcr.io < ${HOME}/gcloud-service-key.json
+      - docker build -t $IMAGE_NAME .
+      - docker tag $IMAGE_NAME "gcr.io/$GCLOUD_PROJECT_ID/$IMAGE_NAME"
+      - docker push "gcr.io/$GCLOUD_PROJECT_ID/$IMAGE_NAME:latest"
+      - kubectl edit deployment messaging
+  only:
+    - master    
+    
+    

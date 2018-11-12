@@ -1,0 +1,66 @@
+2018-11-12 02:48:57.6079 Info Message Template Auto Format enabled
+2018-11-12 02:48:57.6206 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 02:48:57.7628 Info Adding target File Target[allfile]
+2018-11-12 02:48:57.7891 Info Adding target File Target[ownFile-web]
+2018-11-12 02:48:57.8002 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 02:48:57.8278 Info Found 45 configuration items
+2018-11-12 02:53:04.3902 Info Message Template Auto Format enabled
+2018-11-12 02:53:04.4054 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 02:53:04.5345 Info Adding target File Target[allfile]
+2018-11-12 02:53:04.5579 Info Adding target File Target[ownFile-web]
+2018-11-12 02:53:04.5703 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 02:53:04.5967 Info Found 45 configuration items
+2018-11-12 02:55:53.6238 Info Message Template Auto Format enabled
+2018-11-12 02:55:53.6388 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 02:55:53.7721 Info Adding target File Target[allfile]
+2018-11-12 02:55:53.7949 Info Adding target File Target[ownFile-web]
+2018-11-12 02:55:53.8089 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 02:55:53.8373 Info Found 45 configuration items
+2018-11-12 02:58:24.8629 Info Message Template Auto Format enabled
+2018-11-12 02:58:24.8770 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 02:58:25.0012 Info Adding target File Target[allfile]
+2018-11-12 02:58:25.0221 Info Adding target File Target[ownFile-web]
+2018-11-12 02:58:25.0331 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 02:58:25.0656 Info Found 45 configuration items
+2018-11-12 02:59:13.8836 Info Message Template Auto Format enabled
+2018-11-12 02:59:13.8974 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 02:59:14.0728 Info Adding target File Target[allfile]
+2018-11-12 02:59:14.1161 Info Adding target File Target[ownFile-web]
+2018-11-12 02:59:14.1328 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 02:59:14.1932 Info Found 45 configuration items
+2018-11-12 03:01:29.2126 Info Message Template Auto Format enabled
+2018-11-12 03:01:29.2314 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 03:01:29.3588 Info Adding target File Target[allfile]
+2018-11-12 03:01:29.3810 Info Adding target File Target[ownFile-web]
+2018-11-12 03:01:29.3917 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 03:01:29.4167 Info Found 45 configuration items
+2018-11-12 03:04:28.9268 Info Message Template Auto Format enabled
+2018-11-12 03:04:28.9416 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 03:04:29.0727 Info Adding target File Target[allfile]
+2018-11-12 03:04:29.0960 Info Adding target File Target[ownFile-web]
+2018-11-12 03:04:29.1076 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 03:04:29.1336 Info Found 45 configuration items
+2018-11-12 03:04:47.3533 Info Message Template Auto Format enabled
+2018-11-12 03:04:47.3668 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 03:04:47.4934 Info Adding target File Target[allfile]
+2018-11-12 03:04:47.5149 Info Adding target File Target[ownFile-web]
+2018-11-12 03:04:47.5254 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 03:04:47.5495 Info Found 45 configuration items
+2018-11-12 03:06:26.0157 Info Message Template Auto Format enabled
+2018-11-12 03:06:26.0303 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 03:06:26.1592 Info Adding target File Target[allfile]
+2018-11-12 03:06:26.2332 Info Adding target File Target[ownFile-web]
+2018-11-12 03:06:26.2566 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 03:06:26.2939 Info Found 45 configuration items
+2018-11-12 03:12:40.5066 Info Message Template Auto Format enabled
+2018-11-12 03:12:40.5197 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 03:12:40.6408 Info Adding target File Target[allfile]
+2018-11-12 03:12:40.6618 Info Adding target File Target[ownFile-web]
+2018-11-12 03:12:40.6708 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/../../../nlog.config...
+2018-11-12 03:12:40.6939 Info Found 45 configuration items
+2018-11-12 04:56:49.7210 Info Message Template Auto Format enabled
+2018-11-12 04:56:49.7353 Info Loading assembly: NLog.Web.AspNetCore
+2018-11-12 04:56:49.8647 Info Adding target File Target[allfile]
+2018-11-12 04:56:49.8916 Info Adding target File Target[ownFile-web]
+2018-11-12 04:56:49.9020 Info Configured from an XML element in /Users/cayan/Desktop/messaging/Messaging.Api/bin/Debug/netcoreapp2.1/nlog.config...
+2018-11-12 04:56:49.9299 Info Found 45 configuration items
